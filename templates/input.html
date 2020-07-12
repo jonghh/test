@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>input</title>
+    </head>
+    <body>
+     <p> 아래 사항을 입력해 주세요 </p>
+     <form action="http://127.0.0.1:5000/output" method="post">
+         <p> 제목 <input type ="text" name="제목"/> </p>
+         <p> 글 </p>
+         <p> <textarea name="결과" placeholder="이 곳에 입력" rows="5" cols="50"> </textarea> </p>
+         <p> <input type="submit" value="분석"/> </p>
+     </form>
+    </body>
+</html>
